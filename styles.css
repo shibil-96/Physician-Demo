@@ -1,8 +1,94 @@
-html, body{
-margin: 0;
-padding: 0;
-overflow: hidden;
-height: 100%;
+/* media query screen responsive */
+@media screen and (min-width:414px){
+
+    html, body{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        }
+        .cards h1{
+            font-size: 200%;
+            position: relative;
+            top: -10%
+        }
+                .cards p{
+                    font-size: 100%;
+                    position: relative;
+                    top:-15%;
+                    width: 95%;
+                }
+        
+                .eclipse img{
+                    position: relative;
+                    left: 5%;
+                }
+                .cards .btn{
+                    position: relative;
+                    top: -75%;
+                    height: 0.1rem;
+                    padding-bottom: 30px;
+                    font-size: small;
+                }
+        
+                .cards .btn1{
+                    position: relative;
+                    top: -15%;
+                    height: 0.1rem;
+                    padding-bottom: 30px;
+                    font-size: small;
+                }
+
+                .Line{
+                    /* display: flex; */
+                    position: relative;
+                    top: 5px;
+                   
+
+                }
+    
+}
+
+@media screen and (min-width:375px){
+
+    html, body{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        }
+.cards h1{
+    font-size: 200%;
+    position: relative;
+    bottom: 18%;
+}
+        .cards p{
+            font-size: 100%;
+            position: relative;
+            bottom: 30%;
+            width: 95%;
+        }
+
+        .eclipse img{
+            position: relative;
+            left: 5%;
+        }
+        .cards .btn{
+            position: relative;
+            bottom: 208%;
+            height: 0.1rem;
+            padding-bottom: 30px;
+            font-size: small;
+        }
+
+        .cards .btn1{
+            position: relative;
+            bottom: 38%;
+            height: 0.1rem;
+            padding-bottom: 30px;
+            font-size: small;
+        }
+    
 }
 
 /* images */
